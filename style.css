@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 35, 36);
+    overflow-x: hidden;
+
+}
+.todo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(166, 117, 211);
+    margin-top: 40px;
+
+}
+
+.input{
+    margin-top: 60px;
+}
+
+.my-text{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    color: rgba(51, 49, 49, 0.792);
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+
+}
+
+ .item{
+    margin-top: 15px;
+    background-color:  rgb(177, 142, 209);
+    padding: 20px;
+    border-radius: 30px;
+    list-style: none;
+    color: rgb(16, 16, 16);
+}
+
+.btn {
+    width: 100px;
+    min-height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: rgba(95, 26, 169, 0.848);
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.input-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-text{
+    display: none;
+}
